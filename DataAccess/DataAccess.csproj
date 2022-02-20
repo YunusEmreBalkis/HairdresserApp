@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Desktop\Coree\Core.csproj" />
+    <ProjectReference Include="..\Coree\Core.csproj" />
+    <ProjectReference Include="..\Entites\Entites.csproj" />
+  </ItemGroup>
+
+</Project>
